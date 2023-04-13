@@ -1,3 +1,13 @@
+import Entry from "./Entry";
+
+import "./EntryList.css";
 export default function EntryList() {
-  return <section>List of entries</section>;
+  return (
+    <div className="entry-container">
+      <Entry />
+      <Entry />
+      <Entry />
+      <Entry />
+    </div>
+  );
 }
