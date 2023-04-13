@@ -1,0 +1,7 @@
+.favorite-button {
+    position: absolute;
+    right: 0;
+    top: 2.5rem;
+    border: none;
+    background-color: transparent;
+}

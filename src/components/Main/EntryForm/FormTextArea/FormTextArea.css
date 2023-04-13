@@ -1,0 +1,20 @@
+.form-textfield-label {
+    font-size: 0.75rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+.form-textfield {
+    min-height: 3.88rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: var(--color-water-10);
+    border-width: 1px;
+}

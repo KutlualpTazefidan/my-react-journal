@@ -1,8 +1,8 @@
 import "./Entry.css";
+import FavoriteIcon from "./FavoriteIcon";
 export default function Entry() {
   const dateOptions = { weekday: "short", year: "numeric", day: "numeric" };
   const entryDates = new Date().toLocaleDateString("en-GB", dateOptions);
-
   return (
     <section className="entry">
       <div className="entry-date">{entryDates}</div>
@@ -12,9 +12,7 @@ export default function Entry() {
         mihi. Et quidem se repellere, idque instituit docere sic omne animal,
         simul atque.
       </p>
-      <button className="entry-favorite-button">
-        <img src="/star-filled.svg" alt="favorite" />
-      </button>
+      <FavoriteIcon />
     </section>
   );
 }
